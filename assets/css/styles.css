@@ -1,0 +1,45 @@
+/* CSS */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+    margin: 0;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.profile {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #343a40;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 3em;
+    color: #6c757d;
+}
+
+.social-icons img {
+    width: 4em;
+    height: 4em;
+    margin: 0 1em;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+a {
+    color: #333;
+    padding: 1em;
+}
